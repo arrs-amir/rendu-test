@@ -64,8 +64,8 @@ public class TicketMachine {
 	 * @throws IllegalArgumentException if amount is not positive
 	 */
 	public void insertMoney(int amount) {
-		balance = balance + amount;
-		total+=amount;
+		balance += amount;
+		total += amount;
 
 	}
 
